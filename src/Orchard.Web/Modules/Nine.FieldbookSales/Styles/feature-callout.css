@@ -1,0 +1,21 @@
+﻿.callout-text {
+    color: red;
+    display: block;
+    float: left;
+    font-size: 25px;
+    /*position: relative;*/
+    width: 100%;
+    
+}
+
+.TeaserRightFeatureCallout, .LearnMoreRightFeatureCallout {
+    text-align: right;
+}
+
+.TeaserBannerFeatureCallout, .LearnMoreBannerFeatureCallout {
+
+    text-align: center;
+
+}
+
+

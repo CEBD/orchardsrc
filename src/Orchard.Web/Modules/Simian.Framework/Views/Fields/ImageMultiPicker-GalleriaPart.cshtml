@@ -1,0 +1,65 @@
+﻿@using Amba.ImagePowerTools.Fields
+@using Amba.ImagePowerTools.HtmlHelpers
+@using System.Linq
+@using Amba.ImagePowerTools.Settings
+@{
+    var field = (ImageMultiPickerField)Model.Field;
+    var settings = (ImageMultiPickerFieldSettings)Model.Settings;
+    Style.Require("Waffles");
+    Style.Include("jQuery.Slides.Styles.Stew.css");
+    //Style.Require("Galleria.Simian");
+
+    Script.Require("jQuery");
+
+    Script.Require("ImageSlider");
+    Script.Require("ImageSliderCaptions");
+
+    //Script.Require("Galleria");
+    //Script.Require("Galleria.Simian");
+
+    //Style.Require("GalleriaImageGallery");
+    //Script.Require("GalleriaImageGallery");
+}
+@if (field.Images.Any())
+{
+    <div class="">
+        <div id="slides" class="slides">
+            @foreach (var image in field.Images)
+            {
+                var title = image["title"];
+                var description = image["description"];
+                //var imageUrl = "~/" + image.FilePath;
+                
+                @Html.ResizedImage(image.FilePath, htmlAttributes: new { alt = "", @class = "", data_title = @title, data_description = @description })
+            }
+        </div>
+    </div>
+
+    
+
+
+}
+
+@*
+    
+    
+    
+    <div class="waffles galleria-imagegallery">
+        <div class="galleria-imagegallery-slidingframe">
+            @foreach (var image in field.Images)
+            {   
+                <div class="galleria-imagegallery-image-frame">
+                    @{
+                var title = image["title"];
+                var description = image["description"];
+                var imageUrl = "~/" + image.FilePath;
+                    }
+                    <div>
+
+                        @Html.ResizedImage(image.FilePath, htmlAttributes: new { alt = "", @class = "galleria-imagegallery-image-image", data_title = @title, data_description = @description })
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+}*@

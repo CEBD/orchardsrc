@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Placement>
+  <Place Parts_Feature = "Content:5"/>
+  <Place Parts_Feature_Edit="Content:1"/>
+  <Match ContentType="Feature" >
+    <Match DisplayType="Detail">
+
+      <Place Parts_Title ="Header:1"></Place>
+      <!--Teaser-->
+      <Place Fields_MediaPicker-TeaserBannerFeatureImage="FeatureTeaserBannerFrame:1"
+             Fields_Common_Text-TeaserBannerFeatureCallout="FeatureTeaserBannerFrame:1.1"/>
+
+      <Place Fields_MediaPicker-TeaserLeftFeatureImage="FeatureTeaserLeftFrame:1"
+             Fields_Common_Text-TeaserLeftFeatureCallout="FeatureTeaserLeftFrame:1.1"/>
+
+      <Place Fields_MediaPicker-TeaserRightFeatureImage="FeatureTeaserRightFrame:1"
+             Fields_Common_Text-TeaserRightFeatureCallout="FeatureTeaserRightFrame:1.1"/>
+
+      <Place Fields_Common_Text-FeatureTeaser ="Teaser:2"/>
+
+      <!--Learn More-->
+      <Place Fields_Common_Text-LearnMoreBannerFeatureCallout="FeatureLearnMoreBannerFrameTop:2.1.1"/>
+
+      <Place Fields_MediaPicker-LearnMoreLeftFeatureImage="FeatureLearnMoreLeftFrame:3.2"
+             Fields_Common_Text-LearnMoreLeftFeatureCallout="FeatureLearnMoreLeftFrame:3.2.1"/>
+
+      <Place Fields_MediaPicker-LearnMoreRightFeatureImage="FeatureLearnMoreRightFrame:3.3"
+             Fields_Common_Text-LearnMoreRightFeatureCallout="FeatureLearnMoreRightFrame:3.3.1"/>
+
+      <Place Fields_Common_Text-FeatureLearnMore ="LearnMore:1"/>
+
+      <Place Fields_MediaPicker-LearnMoreBannerFeatureImage="FeatureLearnMoreBannerFrameBottom:5.1"/>
+      
+    </Match>
+    <Match DisplayType="Summary">
+
+      <Place Parts_Title ="Header:1"></Place>
+      <!--Teaser-->
+      <Place Fields_MediaPicker-TeaserBannerFeatureImage="FeatureTeaserBannerFrame:1"
+             Fields_Common_Text-TeaserBannerFeatureCallout="FeatureTeaserBannerFrame:1.1"/>
+
+      <Place Fields_MediaPicker-TeaserLeftFeatureImage="FeatureTeaserLeftFrame:1"
+             Fields_Common_Text-TeaserLeftFeatureCallout="FeatureTeaserLeftFrame:1.1"/>
+
+      <Place Fields_MediaPicker-TeaserRightFeatureImage="FeatureTeaserRightFrame:1"
+             Fields_Common_Text-TeaserRightFeatureCallout="FeatureTeaserRightFrame:1.1"/>
+
+      <Place Fields_Common_Text-FeatureTeaser ="Teaser:2"/>
+
+    </Match>
+  </Match>
+</Placement>

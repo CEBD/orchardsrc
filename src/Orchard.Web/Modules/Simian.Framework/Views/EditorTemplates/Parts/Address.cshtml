@@ -1,0 +1,46 @@
+﻿@model Simian.Framework.Models.AddressPart
+
+@{
+    Style.Include("AddressPart");
+    Style.Require("Waffles");
+    Script.Require("jQuery");
+    Script.Include("AddressPartEdit");
+}
+
+<div class="waffles">
+    <div class="w-12">
+        <fieldset class="w-4 w-alpha address-part-fieldset">
+            <legend>@T("Details")</legend>
+
+            @Html.LabelFor(m => m.Latitude, T("Latitude"))
+            @Html.EditorFor(m => m.Latitude)
+
+            @Html.LabelFor(m => m.Longitude, T("Longitude"))
+            @Html.EditorFor(m => m.Longitude)
+
+            <div class="address-part-fields">
+                
+                @Html.LabelFor(m => m.Street, T("Street"))
+                @Html.EditorFor(m => m.Street)
+
+                @Html.LabelFor(m => m.City, T("City"))
+                @Html.EditorFor(m => m.City)
+
+                @Html.LabelFor(m => m.State, T("State"))
+                @Html.EditorFor(m => m.State)
+
+                @Html.LabelFor(m => m.Zipcode, T("Zipcode"))
+                @Html.EditorFor(m => m.Zipcode)
+
+            </div>
+            <br/>
+            <button id="check-google-button" type="button"> Generate Map </button>
+        </fieldset>
+        <div class=" w-8 w-omega ">
+            <div class="googlemap w-12 w-alpha w-omega">
+                &nbsp;
+            </div>
+        </div>
+    </div>
+</div>
+
