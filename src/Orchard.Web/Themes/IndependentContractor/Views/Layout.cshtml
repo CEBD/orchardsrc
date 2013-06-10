@@ -24,7 +24,9 @@
 
     WorkContext.Layout.Header.Add(New.SiteTitle(), "0");
     WorkContext.Layout.Footer.Add(New.FooterCopyright(), "5");
-    WorkContext.Layout.Footer.Add(New.User(), "10");
+   
+    
+    //WorkContext.Layout.Footer.Add(New.User(), "10"); // Login and dashboard links
 
     /* Last bit of code to prep the layout wrapper
     ***************************************************************/
@@ -73,7 +75,7 @@
 
 @if (Model.Billboard != null)
 {
-    <div id="Zone-Billboard" class="w-12 w-alpha w-omega zone-wrapper w-v_1">
+    <div id="Zone-Billboard" class="w-12 w-alpha w-omega zone-wrapper">
         @Zone(Model.Billboard)
     </div>
 }
@@ -83,7 +85,7 @@
         @Zone(Model.PreMain)
     </div>
 }
-<div id="Main-Wrapper" class="w-12 w-alpha w-omega w-v-2">
+<div id="Main-Wrapper" class="w-12 w-alpha w-omega">
     @if (Model.Messaging != null)
     {
         <div id="Zone-Messaging" class="w-12 w-alpha w-omega zone-wrapper w-v-1">
