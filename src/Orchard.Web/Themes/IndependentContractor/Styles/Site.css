@@ -8,6 +8,7 @@ Theme: Merrick
 {
     width: 100%;
 }
+
 .zone
 {
     width: 100%;
@@ -16,21 +17,27 @@ Theme: Merrick
 #Zone-PreBody
 {
 }
+
 #Zone-Search
 {
 }
+
 #Zone-Header
 {
 }
-#Zone-Navigation {
+
+#Zone-Navigation
+{
 }
 
 #Zone-Billboard
 {
 }
+
 #Zone-SideAlpha
 {
 }
+
 #Zone-SideOmega
 {
 }
@@ -38,12 +45,15 @@ Theme: Merrick
 #Content-Wrapper
 {
 }
+
 #Zone-PreCOntent
 {
 }
+
 #Zone-Content
 {
 }
+
 #Zone-PostContent
 {
 }
@@ -51,34 +61,71 @@ Theme: Merrick
 
 #Zone-Footer
 {
-    background-color:black;
-    color:gray;
-    padding:5px;
+    background-color: black;
+    color: gray;
+    padding: 5px;
 }
 
 
-#Main-Wrapper 
+#Main-Wrapper
 {
-    background-color:#ffffff;
+    background-color: #ffffff;
+    padding: 10px 50px;
 }
 
-body 
+body
 {
-background: #640404; /* Old browsers */
-/* IE9 SVG, needs conditional override of 'filter' to 'none' */
-background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iNzUlIj4KICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiM2NDA0MDQiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI5MyUiIHN0b3AtY29sb3I9IiM4NTA0MDUiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI5NCUiIHN0b3AtY29sb3I9IiM4MzAyMDMiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI5NyUiIHN0b3AtY29sb3I9IiM4MTAzMDQiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI5OCUiIHN0b3AtY29sb3I9IiM3YTAzMDQiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjNmEwMjAzIiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L3JhZGlhbEdyYWRpZW50PgogIDxyZWN0IHg9Ii01MCIgeT0iLTUwIiB3aWR0aD0iMTAxIiBoZWlnaHQ9IjEwMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-background: -moz-radial-gradient(center, ellipse cover,  #640404 0%, #850405 93%, #830203 94%, #810304 97%, #7a0304 98%, #6a0203 100%); /* FF3.6+ */
-background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#640404), color-stop(93%,#850405), color-stop(94%,#830203), color-stop(97%,#810304), color-stop(98%,#7a0304), color-stop(100%,#6a0203)); /* Chrome,Safari4+ */
-background: -webkit-radial-gradient(center, ellipse cover,  #640404 0%,#850405 93%,#830203 94%,#810304 97%,#7a0304 98%,#6a0203 100%); /* Chrome10+,Safari5.1+ */
-background: -o-radial-gradient(center, ellipse cover,  #640404 0%,#850405 93%,#830203 94%,#810304 97%,#7a0304 98%,#6a0203 100%); /* Opera 12+ */
-background: -ms-radial-gradient(center, ellipse cover,  #640404 0%,#850405 93%,#830203 94%,#810304 97%,#7a0304 98%,#6a0203 100%); /* IE10+ */
-background: radial-gradient(ellipse at center,  #640404 0%,#850405 93%,#830203 94%,#810304 97%,#7a0304 98%,#6a0203 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#640404', endColorstr='#6a0203',GradientType=1 ); /* IE6-8 fallback on horizontal gradient */
+    background-color: #840405; /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIxJSIgc3RvcC1jb2xvcj0iIzg0MDQwNSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjY1JSIgc3RvcC1jb2xvcj0iIzYwMDYwMyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM2NDA0MDUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top, #840405 1%, #600603 65%, #640405 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#840405), color-stop(65%,#600603), color-stop(100%,#640405)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #840405 1%,#600603 65%,#640405 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #840405 1%,#600603 65%,#640405 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #840405 1%,#600603 65%,#640405 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #840405 1%,#600603 65%,#640405 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#840405', endColorstr='#640405',GradientType=0 ); /* IE6-8 */
 
+/*background-image: url(../Views/assets/noisy-texture-200x200-o5-d22-c-6b1018-t1.png);*/
+    
 }
 
-.user-display .welcome .user-actions {display:none !important; visibility:hidden;}
+/*.user-display .welcome .user-actions
+{
+    display: none !important;
+    visibility: hidden;
+}*/
 
+.credits
+{
+    text-align: center;
+}
+
+    .credits a
+    {
+        color:gray;
+    }
+
+        .credits a:hover
+        {
+            color: white;
+        }
+
+.copyright
+{
+}
+
+.contactinfo
+{
+/*background-color:green;*/
+}
+
+.footerinfo ul, ol
+{
+margin: 0.7em 1.5em;
+line-height: 1.8em;
+
+}
 
 /* Main
 ***************************************************************/
@@ -97,36 +144,36 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#640404', end
     list-style: none;
 }
 
-.content-items li
-{
-    padding: 0;
-    margin: 0;
-}
+    .content-items li
+    {
+        padding: 0;
+        margin: 0;
+    }
 
-.content-items .content-item
-{
-    border-top: 1px solid #dbdbdb;
-    padding: 6px 0 6px 0;
-}
+    .content-items .content-item
+    {
+        border-top: 1px solid #dbdbdb;
+        padding: 6px 0 6px 0;
+    }
 
-.content-items .content-item header
-{
-}
+        .content-items .content-item header
+        {
+        }
 
-.content-items .content-item header h1
-{
-    font-size: 1.308em;
-    color: #434343;
-}
+            .content-items .content-item header h1
+            {
+                font-size: 1.308em;
+                color: #434343;
+            }
 
-.content-items .content-item header h1 a
-{
-    color: #434343;
-}
+                .content-items .content-item header h1 a
+                {
+                    color: #434343;
+                }
 
-.content-items .content-item header h1 a:hover
-{
-}
+                    .content-items .content-item header h1 a:hover
+                    {
+                    }
 
 /* Tags */
 
@@ -135,42 +182,43 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#640404', end
     margin-top: 12px;
 }
 
-.tags a
-{
-    background-color: #dbdbdb;
-    padding: 3px 6px;
-    color: #434343;
-}
+    .tags a
+    {
+        background-color: #dbdbdb;
+        padding: 3px 6px;
+        color: #434343;
+    }
 
-.tags a:hover
-{
-    background-color: #434343;
-    color: #fff;
-}
+        .tags a:hover
+        {
+            background-color: #434343;
+            color: #fff;
+        }
 
 /* Metadata */
 
 .metadata
 {
-    margin: 0 0 12px 0;
+    display:none;
+    /*margin: 0 0 12px 0;
     color: #999;
-    font-size: 0.846em;
+    font-size: 0.846em;*/
 }
 
-.metadata .published
-{
-    display: inline;
-    margin: 0 6px 0 0;
-}
+    /*.metadata .published
+    {
+        display: inline;
+        margin: 0 6px 0 0;
+    }
 
-.metadata .commentcount
-{
-    display: inline;
-}
+    .metadata .commentcount
+    {
+        display: inline;
+    }
 
 .meta
 {
-}
+}*/
 
 /* Comments */
 
@@ -193,12 +241,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#640404', end
     list-style: none;
 }
 
-.comments li
-{
-    margin: 12px 0 0 0;
-    padding: 12px;
-    border: 1px solid #dbdbdb;
-}
+    .comments li
+    {
+        margin: 12px 0 0 0;
+        padding: 12px;
+        border: 1px solid #dbdbdb;
+    }
 
 .comment
 {
@@ -206,22 +254,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#640404', end
     padding: 0;
 }
 
-.comment h4
-{
-    font-size: 1.077em;
-}
+    .comment h4
+    {
+        font-size: 1.077em;
+    }
 
-.comment .who
-{
-}
+    .comment .who
+    {
+    }
 
-.comment .what
-{
-}
+    .comment .what
+    {
+    }
 
-.comment #add-comment
-{
-}
+    .comment #add-comment
+    {
+    }
 
 .comment-form #comment-by
 {
@@ -308,27 +356,27 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#640404', end
     border: 1px dotted #5f97af;
 }
 
-.widget-control .manage-actions
-{
-    position: absolute;
-    top: 0px;
-    right: 0px;
-}
+    .widget-control .manage-actions
+    {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
 
-.widget-control .manage-actions a
-{
-    display: block;
-    background-color: #dbdbdb;
-    color: #434343;
-    padding: 3px 6px;
-}
+        .widget-control .manage-actions a
+        {
+            display: block;
+            background-color: #dbdbdb;
+            color: #434343;
+            padding: 3px 6px;
+        }
 
-.widget-control .manage-actions a:hover
-{
-    background-color: #434343;
-    color: #fff;
-    text-decoration: none;
-}
+            .widget-control .manage-actions a:hover
+            {
+                background-color: #434343;
+                color: #fff;
+                text-decoration: none;
+            }
 
 /* Content Mode */
 
@@ -339,27 +387,27 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#640404', end
     position: relative;
 }
 
-.content-control .manage-actions
-{
-    position: absolute;
-    top: 0px;
-    right: 0px;
-}
+    .content-control .manage-actions
+    {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
 
-.content-control .manage-actions a
-{
-    display: block;
-    background-color: #dbdbdb;
-    color: #434343;
-    padding: 3px 6px;
-}
+        .content-control .manage-actions a
+        {
+            display: block;
+            background-color: #dbdbdb;
+            color: #434343;
+            padding: 3px 6px;
+        }
 
-.content-control .manage-actions a:hover
-{
-    background-color: #434343;
-    color: #fff;
-    text-decoration: none;
-}
+            .content-control .manage-actions a:hover
+            {
+                background-color: #434343;
+                color: #fff;
+                text-decoration: none;
+            }
 
 
 
@@ -373,32 +421,32 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#640404', end
     margin: 12px 0 0 0;
 }
 
-.pager li
-{
-    float: left;
-    padding: 0 12px 0 0;
-    margin: 0;
-}
+    .pager li
+    {
+        float: left;
+        padding: 0 12px 0 0;
+        margin: 0;
+    }
 
-.pager a, .pager span
-{
-    font-size: 1.077em;
-    display: block;
-    background-color: #dbdbdb;
-    padding: 6px 6px;
-    color: #434343;
-}
+    .pager a, .pager span
+    {
+        font-size: 1.077em;
+        display: block;
+        background-color: #dbdbdb;
+        padding: 6px 6px;
+        color: #434343;
+    }
 
-.pager a:hover
-{
-    background-color: #434343;
-    color: #fff;
-}
+        .pager a:hover
+        {
+            background-color: #434343;
+            color: #fff;
+        }
 
-.pager span
-{
-    background-color: inherit;
-}
+    .pager span
+    {
+        background-color: inherit;
+    }
 
 
 
@@ -425,11 +473,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#640404', end
     background-color: rgba(240,240,240,0.9);
 }
 
-.narrow-billboard:hover
-{
-    min-height: 125px;
-    background-color: rgba(240,240,240,0.9);
-}
+    .narrow-billboard:hover
+    {
+        min-height: 125px;
+        background-color: rgba(240,240,240,0.9);
+    }
 
 
 .widget-search-form
@@ -442,17 +490,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#640404', end
     margin-bottom: 15px;
 }
 
-#Zone-Navigation {
-    
-    z-index:2
-    
+#Zone-Navigation
+{
+    z-index: 2;
 }
 
-#Zone-Billboard {
+#Zone-Billboard
+{
     overflow: hidden;
-    z-index:2
+    z-index: 2;
 }
 
-.zone-billboard {
+.zone-billboard
+{
     background: rgb(76,76,76);
 }

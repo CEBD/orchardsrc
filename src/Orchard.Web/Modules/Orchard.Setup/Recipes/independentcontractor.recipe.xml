@@ -49,25 +49,34 @@
     <Migration features="*" />
 
     <Command>
-        layer create Default /LayerRule:"true" /Description:"The widgets in this layer are displayed on all pages"
-        layer create Authenticated /LayerRule:"authenticated" /Description:"The widgets in this layer are displayed when the user is authenticated"
-        layer create Anonymous /LayerRule:"not authenticated" /Description:"The widgets in this layer are displayed when the user is anonymous"
-        layer create Disabled /LayerRule:"false" /Description:"The widgets in this layer are never displayed"
-        layer create TheHomepage /LayerRule:"url '~/'" /Description:"The widgets in this layer are displayed on the home page"
+      layer create Default /LayerRule:"true" /Description:"The widgets in this layer are displayed on all pages"
+      layer create Authenticated /LayerRule:"authenticated" /Description:"The widgets in this layer are displayed when the user is authenticated"
+      layer create Anonymous /LayerRule:"not authenticated" /Description:"The widgets in this layer are displayed when the user is anonymous"
+      layer create Disabled /LayerRule:"false" /Description:"The widgets in this layer are never displayed"
+      layer create TheHomepage /LayerRule:"url '~/'" /Description:"The widgets in this layer are displayed on the home page"
+      layer create NewConstruction /LayerRule:"url '~/new-construction'" /Description:"The widgets in this layer are displayed on the construction page"
+      layer create Remodeling /LayerRule:"url '~/remodeling'" /Description:"The widgets in this layer are displayed on the remodeling page"
+      layer create About /LayerRule:"url '~/about'" /Description:"The widgets in this layer are displayed on the about page"
+      layer create Contact /LayerRule:"url '~/contact'" /Description:"The widgets in this layer are displayed on the contact page"
 
-        site setting set baseurl
+      site setting set baseurl
 
-        theme activate "IndependentContractor"
+      theme activate "IndependentContractor"
 
-        widget create GalleriaImageGalleryWidget /Title:"Main Page Gallery" /Zone:"Billboard" /Position:"1" /Layer:"TheHomepage" /RenderTitle:false /Identity:"HomePageGallery"
+      widget create GalleriaImageGalleryWidget /Title:"Main Page Gallery" /Zone:"Billboard" /Position:"1" /Layer:"TheHomepage" /RenderTitle:false /Identity:"HomePageGallery"
 
-        menu create /MenuName:"Main Menu"
+      menu create /MenuName:"Main Menu"
 
-        page create /Slug:"independent-contractor-home" /Title:"Brand New Independent Contractor Site" /Path:"independent-contractor-home" /Homepage:true /Publish:true /UseWelcomeText:true
-        page create /Slug:"construction" /Title:"Construction"   /Path:"~/construction" /Homepage:false /Publish:true /UseWelcomeText:true /MenuText:"Construction" /MenuName:"Main Menu"
-        page create /Slug:"remodeling"  /Title:"Home Remodeling" /Path:"~/remodeling"   /Homepage:false /Publish:true /UseWelcomeText:true /MenuText:"Remodeling"   /MenuName:"Main Menu"
+      page create /Slug:"independent-contractor-home" /Title:"Brand New Independent Contractor Site" /Path:"independent-contractor-home" /Homepage:true /Publish:true /UseWelcomeText:true
+      page create /Slug:"new-construction" /Title:"New Construction"   /Path:"~/new-construction" /Homepage:false /Publish:true /UseWelcomeText:true /MenuText:"New Construction" /MenuName:"Main Menu"
+      page create /Slug:"remodeling"  /Title:"Home Remodeling" /Path:"~/remodeling"   /Homepage:false /Publish:true /UseWelcomeText:true /MenuText:"Remodeling"   /MenuName:"Main Menu"
+      page create /Slug:"remodeling"  /Title:"Gallery + Testimonials" /Path:"~/gallery-and-testimonials"   /Homepage:false /Publish:true /UseWelcomeText:true /MenuText:"Gallery+Testimonials"   /MenuName:"Main Menu"
+      page create /Slug:"about"  /Title:"About" /Path:"~/about"   /Homepage:false /Publish:true /UseWelcomeText:true /MenuText:"About"   /MenuName:"Main Menu"
+      page create /Slug:"contact"  /Title:"Contact" /Path:"~/contact"   /Homepage:false /Publish:true /UseWelcomeText:true /MenuText:"Contact"   /MenuName:"Main Menu"
 
-        widget create MenuWidget /Title:"Main Menu" /RenderTitle:false /Zone:"Navigation" /Position:"1" /Layer:"Default" /Identity:"MenuWidget1" /MenuName:"Main Menu"
+
+
+      widget create MenuWidget /Title:"Main Menu" /RenderTitle:false /Zone:"Navigation" /Position:"1" /Layer:"Default" /Identity:"MenuWidget1" /MenuName:"Main Menu"
 
 
     </Command>
