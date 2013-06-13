@@ -1,0 +1,11 @@
+﻿Name: Simian.Contractor
+AntiForgery: enabled
+Author: Jesse and Amanda Harlin
+Website: http://jesseharlin.net
+Version: 1.0
+OrchardVersion: 1.0
+Description: A Module used to hold content parts and types for general cotnractors susch as construction, plumbing, electrical and so on.
+Features:
+    Simian.Contractor:
+        Description: Description for feature Simian.Contractor.
+		Dependencies: Simian.Framework

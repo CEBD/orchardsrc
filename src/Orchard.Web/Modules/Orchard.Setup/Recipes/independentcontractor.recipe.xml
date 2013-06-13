@@ -25,10 +25,13 @@
                 Orchard.Widgets.PageLayerHinting,
                 Orchard.ContentTypes,
                 Orchard.Scripting,
+                Orchard.Projections,
+                Orchard.Forms,
                 Orchard.Scripting.Lightweight,
+                Simian.Contractor,
                 PackagingServices,
                 Orchard.Packaging,
-                Gallery,Gallery.Updates, 
+                Gallery,Gallery.Updates,
                 Bootstrap,
                 TheThemeMachine" />
     <Metadata>
@@ -70,9 +73,12 @@
       page create /Slug:"new-construction" /Title:"New Construction"   /Path:"~/new-construction" /Homepage:false /Publish:true /UseWelcomeText:true /MenuText:"New Construction" /MenuName:"Main Menu"
       page create /Slug:"remodeling"  /Title:"Home Remodeling" /Path:"~/remodeling"   /Homepage:false /Publish:true /UseWelcomeText:true /MenuText:"Remodeling"   /MenuName:"Main Menu"
       page create /Slug:"remodeling"  /Title:"Gallery + Testimonials" /Path:"~/gallery-and-testimonials"   /Homepage:false /Publish:true /UseWelcomeText:true /MenuText:"Gallery+Testimonials"   /MenuName:"Main Menu"
+      
       page create /Slug:"about"  /Title:"About" /Path:"~/about"   /Homepage:false /Publish:true /UseWelcomeText:true /MenuText:"About"   /MenuName:"Main Menu"
       page create /Slug:"contact"  /Title:"Contact" /Path:"~/contact"   /Homepage:false /Publish:true /UseWelcomeText:true /MenuText:"Contact"   /MenuName:"Main Menu"
 
+
+      
 
 
       widget create MenuWidget /Title:"Main Menu" /RenderTitle:false /Zone:"Navigation" /Position:"1" /Layer:"Default" /Identity:"MenuWidget1" /MenuName:"Main Menu"

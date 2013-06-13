@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+
+<Placement>
+    <Match ContentType="Job">
+
+        <Place Parts_Common_Metadata="-"></Place>
+
+        <Match DisplayType="Summary">
+
+
+            <Place 
+                Fields_ImageMultiPicker="-" 
+                Fields_Contrib_TaxonomyField="-"  
+                />
+       
+            
+        </Match>
+        
+        
+    </Match>
+</Placement>
+

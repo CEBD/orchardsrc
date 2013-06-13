@@ -6,7 +6,7 @@ using System.Security;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Simian.Remodel")]
+[assembly: AssemblyTitle("Simian.Contractor")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyProduct("Orchard")]
@@ -20,7 +20,7 @@ using System.Security;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("1a79d32d-b8b7-4b33-91b4-3b8df45c86f1")]
+[assembly: Guid("1855fce6-5997-45e8-a513-7ebe0f77f322")]
 
 // Version information for an assembly consists of the following four values:
 //
