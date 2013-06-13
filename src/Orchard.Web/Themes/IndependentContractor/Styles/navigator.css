@@ -1,160 +1,207 @@
 ﻿/* Navigation */
-#Zone-Navigation {
-  
+#Zone-Navigation
+{
 }
 
-#Zone-Title-Wrapper {
-     
+#Zone-Title-Wrapper
+{
 }
 
-.menu-backdrop {
+.menu-backdrop
+{
     background-color: black;
     position: relative;
     top: 0;
     height: 50px;
-    z-index: -1
+    z-index: -1;
+    -webkit-box-shadow: 1px 1px 25px 2px rgba(0, 0, 0, 1);
+     box-shadow: 1px 1px 25px 2px rgba(0, 0, 0, 1);
 }
 
 
-.site-wrapper {
+.site-wrapper
+{
     max-width: 1024px !important;
     margin-top: -50px;
+    -webkit-box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 1);
+    box-shadow: 0px 0px 25px 3px rgba(0, 0, 0, 1);
 }
 
 
 
 
-.navigation-titlebar {
+.navigation-titlebar
+{
     height: 50px;
 }
 
-.widget-navigation {
-
+.widget-navigation
+{
 }
 
 
-nav ul {
+nav ul
+{
     height: 50px;
     margin: 0;
 }
 
-nav ul li {
-    height: 50px;
-    display: block;
-    float: left;
+    nav ul li
+    {
+        height: 50px;
+        display: block;
+        float: left;
+    }
 
+        nav ul li.first
+        {
+        }
+
+
+        nav ul li.last
+        {
+        }
+
+nav > ul li.current
+{
 }
 
-nav ul li.first {
-
-}
-
-
-nav ul li.last {
-
-}
-
-nav > ul li.current {
-
-}
-
-nav ul li a {
+nav ul li a
+{
     padding: 0 10px;
     color: white;
 }
 
-nav ul li a:hover {
-    background-color: white;
-    color: black;
-}
+    nav ul li a:hover
+    {
+        background-color: white;
+        color: black;
+    }
 
 
-nav ul li a:hover 
-{
-
-}
+    nav ul li a:hover
+    {
+    }
 
 
 
 
 /* first level */
 
-nav > ul > li { float: left;}
-
-nav > ul > li > a { float: left; height: 50px;line-height: 50px;}
-
-nav > ul > li:hover > ul { display: block; }
-
-nav > ul > li:hover { }
-
-/* second level */
-
-nav > ul > li > ul {
-    border: 1px solid #dbdbdb;
-    display: none;
-    margin: 24px 0px 0px -1px;
-    padding: 0px;
-    position: absolute;
+nav > ul > li
+{
+    float: left;
 }
 
-nav > ul > li > ul > li {
-    border: none;
-    list-style-type: none;
-    margin: 0px;
-}
+    nav > ul > li > a
+    {
+        float: left;
+        height: 50px;
+        line-height: 50px;
+    }
 
-nav > ul > li > ul > li > a {
-    display: block;
-    text-decoration: none;
-}
+    nav > ul > li:hover > ul
+    {
+        display: block;
+    }
 
-nav > ul > li > ul > li:hover > a { }
+    nav > ul > li:hover
+    {
+    }
 
-nav > ul > li > ul > li:hover > ul { display: block; }
+    /* second level */
 
-/* third level */
+    nav > ul > li > ul
+    {
+        border: 1px solid #dbdbdb;
+        display: none;
+        margin: 24px 0px 0px -1px;
+        padding: 0px;
+        position: absolute;
+    }
 
-nav > ul > li > ul > li > ul {
-    border: 1px solid #dbdbdb;
-    display: none;
-    margin: -20px -1px 0px 90%;
-    padding: 0px;
-    position: absolute;
-}
+        nav > ul > li > ul > li
+        {
+            border: none;
+            list-style-type: none;
+            margin: 0px;
+        }
 
-nav > ul > li > ul > li > ul > li {
-    border: none;
-    list-style-type: none;
-    margin: 0px;
-}
+            nav > ul > li > ul > li > a
+            {
+                display: block;
+                text-decoration: none;
+            }
 
-nav > ul > li > ul > li > ul > li > a {
-    display: block;
-    text-decoration: none;
-}
+            nav > ul > li > ul > li:hover > a
+            {
+            }
 
-nav > ul > li > ul > li > ul > li:hover > a { }
+            nav > ul > li > ul > li:hover > ul
+            {
+                display: block;
+            }
 
-/* deeper levels */
+            /* third level */
 
-nav > ul > li > ul > li > ul ul { display: none; }
+            nav > ul > li > ul > li > ul
+            {
+                border: 1px solid #dbdbdb;
+                display: none;
+                margin: -20px -1px 0px 90%;
+                padding: 0px;
+                position: absolute;
+            }
+
+                nav > ul > li > ul > li > ul > li
+                {
+                    border: none;
+                    list-style-type: none;
+                    margin: 0px;
+                }
+
+                    nav > ul > li > ul > li > ul > li > a
+                    {
+                        display: block;
+                        text-decoration: none;
+                    }
+
+                    nav > ul > li > ul > li > ul > li:hover > a
+                    {
+                    }
+
+                /* deeper levels */
+
+                nav > ul > li > ul > li > ul ul
+                {
+                    display: none;
+                }
 
 /* Breadcrumb */
 
-nav ul.breadcrumb {
-
+nav ul.breadcrumb
+{
 }
 
-nav ul.breadcrumb li {
+    nav ul.breadcrumb li
+    {
+    }
 
-}
+        nav ul.breadcrumb li:after
+        {
+            content: "/";
+        }
 
-nav ul.breadcrumb li:after { content: "/"; }
+        nav ul.breadcrumb li.last:after
+        {
+            content: "";
+        }
 
-nav ul.breadcrumb li.last:after { content: ""; }
+        nav ul.breadcrumb li a
+        {
+        }
 
-nav ul.breadcrumb li a {
-
-}
-
-nav ul.breadcrumb li a:hover { text-decoration: underline; }
+            nav ul.breadcrumb li a:hover
+            {
+                text-decoration: underline;
+            }

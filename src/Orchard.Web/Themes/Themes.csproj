@@ -135,6 +135,7 @@
     <Content Include="IndependentContractor\Theme.png" />
     <Content Include="IndependentContractor\Theme.txt" />
     <Content Include="IndependentContractor\ThemeZonePreview.png" />
+    <Content Include="IndependentContractor\Views\assets\noisy-texture-200x200-o5-d22-c-6b1018-t1.png" />
     <Content Include="IndependentContractor\Views\assets\waffle-logo-large.png" />
     <Content Include="SimiansBlog\Scripts\BannerDoodle\cellular-automata\cellular-automata.js" />
     <Content Include="SimiansBlog\Scripts\jquery-1.8.2.min.js" />

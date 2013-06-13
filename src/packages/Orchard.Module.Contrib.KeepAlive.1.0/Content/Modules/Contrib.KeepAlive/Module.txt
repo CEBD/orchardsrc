@@ -1,0 +1,12 @@
+Name: Keep Alive
+AntiForgery: enabled
+Author: Sébastien Ros
+Website: http://orchardkeepalive.codeplex.com
+Version: 1.0
+OrchardVersion: 1.0
+Description: Prevents the application from unloading by pingging periodically a specific page.
+Features:
+    Contrib.KeepAlive:
+        Name: Keep Alive
+        Category: Hosting
+        Description: Prevents the application from unloading by pingging periodically a specific page.

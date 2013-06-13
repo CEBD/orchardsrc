@@ -135,6 +135,8 @@ a:hover.slidesjs-stop {
     margin: 0 auto;
 }
 
+/*TODO: ADD IN A 3 LINE ICON FOR THE COLLAPSED MENU */
+
 /* For tablets & smart phones */
 @media (max-width: 767px) {
     body {
