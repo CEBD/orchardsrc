@@ -9,15 +9,14 @@
         <Match DisplayType="Summary">
 
 
-            <Place 
-                Fields_ImageMultiPicker="-" 
-                Fields_Contrib_TaxonomyField="-"  
+            <Place
+                Fields_ImageMultiPicker="-"
+                Fields_Contrib_TaxonomyField="-"
                 />
-       
-            
+
         </Match>
-        
-        
+
+
     </Match>
 </Placement>
 
