@@ -61,108 +61,16 @@ namespace Simian.Contractor.Handlers
         {
 
 
-            var taxonomyList = new List<string> {
-                "Remodel",
-                "Construction",
-                "Repair"
-            };
-            CreateTaxonomy("JobType", taxonomyList);
-            GenerateQueries("Job", taxonomyList);
+            //var taxonomyList = new List<string> {
+            //    "Remodel",
+            //    "Construction",
+            //    "Repair"
+            //};
+
+            
+            
         }
 
-
-        private void GenerateQueries(string contentType, List<string> taxonomies)
-        {
-            taxonomies.ForEach(t => _contentManager.Publish(CreateTaxonomyQuery(t, contentType).ContentItem));
-        }
-
-        private QueryPart CreateTaxonomyQuery(string taxonomy, string contentType)
-        {
-
-            if (_queryService.GetQuery(_taxonomyService.GetTaxonomyByName(taxonomy).Id) == null)
-            {
-
-                var query = _queryService.CreateQuery(taxonomy);
-
-                var contentTypeFilter = GenerateXmlFormState(new ContentTypeForm { ContentTypes = contentType });
-                var taxName = _taxonomyService.GetTaxonomyByName(taxonomy).Id.ToString();
-                var taxonomyFilter = GenerateXmlFormState(new TaxonomyForm
-                {
-                    TermIds = taxName
-                });
-
-                query.FilterGroups[0].Filters.Add(new FilterRecord
-                {
-                    Category = "Content",
-                    Description = contentTypeFilter,
-                    Position = 0,
-                    State = contentTypeFilter,
-                    Type = "ContentTypes"
-                });
-
-                query.FilterGroups[0].Filters.Add(new FilterRecord
-                {
-                    Category = "Taxonomy",
-                    Description = taxonomyFilter,
-                    Position = 1,
-                    State = taxonomyFilter,
-                    Type = "HasTerms"
-                });
-            }
-        }
-
-        private string GenerateXmlFormState(ContentTypeForm form)
-        {
-            var xmlSerializer = new XmlSerializer(form.GetType());
-            StringWriter sww = new StringWriter();
-            XmlWriter writer = XmlWriter.Create(sww);
-            xmlSerializer.Serialize(writer, form);
-            var state = sww.ToString();
-            return state;
-        }
-
-        private string GenerateXmlFormState(TaxonomyForm form)
-        {
-            var xmlSerializer = new XmlSerializer(form.GetType());
-            StringWriter sww = new StringWriter();
-            XmlWriter writer = XmlWriter.Create(sww);
-            xmlSerializer.Serialize(writer, form);
-            var state = sww.ToString();
-            return state;
-        }
-
-
-        [Serializable]
-        public class ContentTypeForm
-        {
-            public string Description { get; set; }
-            public string ContentTypes { get; set; }
-        }
-
-        [Serializable]
-        public class TaxonomyForm
-        {
-            public string Description { get; set; }
-            public string TermIds { get; set; }
-        }
-
-        private void CreateTaxonomy(string nameOfTaxonomy, List<string> terms)
-        {
-            if (_taxonomyService.GetTaxonomyByName(nameOfTaxonomy) == null)
-            {
-                var taxonomy = _contentManager.New<TaxonomyPart>("Taxonomy");
-                taxonomy.Name = nameOfTaxonomy;
-                _contentManager.Create(taxonomy, VersionOptions.Published);
-                terms.ForEach(t => CreateTerm(taxonomy, t));
-            }
-        }
-
-        private void CreateTerm(TaxonomyPart taxonomyPart, string name)
-        {
-            TermPart term = _taxonomyService.NewTerm(taxonomyPart);
-            term.Name = name;
-            _contentManager.Create(term, VersionOptions.Published);
-        }
 
 
         public void Disabling(Feature feature)
