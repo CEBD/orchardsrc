@@ -26,7 +26,7 @@
     WorkContext.Layout.Footer.Add(New.FooterCopyright(), "5");
    
     
-    //WorkContext.Layout.Footer.Add(New.User(), "10"); // Login and dashboard links
+    WorkContext.Layout.Footer.Add(New.User(), "10"); // Login and dashboard links
 
     /* Last bit of code to prep the layout wrapper
     ***************************************************************/
@@ -239,12 +239,12 @@
                 @Zone(Model.N_4)
             </div>
         }
-        @if (Model.N_4 != null)
+       @* @if (Model.N_4 != null)
         {
             <div id="Zone-N-4" class="w-auto zone-wrapper w-v-1">
                 @Zone(Model.N_4)
             </div>
-        }
+        }*@
         @if (Model.N_5 != null)
         {
             <div id="Zone-N-5" class="w-auto zone-wrapper w-v-1">
