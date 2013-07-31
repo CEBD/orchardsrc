@@ -4,88 +4,78 @@ Theme: Merrick
 
 /* Zones */
 
-.zone-wrapper
-{
+.zone-wrapper {
     width: 100%;
 }
 
-.zone
-{
+.zone {
     width: 100%;
 }
 
-#Zone-PreBody
-{
+#Zone-PreBody {
 }
 
-#Zone-Search
-{
+#Zone-Search {
 }
 
-#Zone-Header
-{
+#Zone-Header {
 }
 
-#Zone-Navigation
-{
+#Zone-Navigation {
+    overflow: hidden;
+    z-index: 2;
 }
 
-#Zone-Billboard
-{
-}
-
-#Zone-SideAlpha
-{
-}
-
-#Zone-SideOmega
-{
-}
-
-#Content-Wrapper
-{
-}
-
-#Zone-PreCOntent
-{
-}
-
-#Zone-Content
-{
-}
-
-#Zone-PostContent
-{
+.zone-billboard {
+    background: rgb(76,76,76);
 }
 
 
-#Zone-Footer
-{
+#Zone-Billboard {
+}
+
+#Zone-SideAlpha {
+}
+
+#Zone-SideOmega {
+}
+
+#Content-Wrapper {
+}
+
+#Zone-PreCOntent {
+}
+
+#Zone-Content {
+}
+
+#Zone-PostContent {
+}
+
+
+#Zone-Footer {
     background-color: black;
     color: gray;
     padding: 5px;
 }
 
 
-#Main-Wrapper
-{
+#Main-Wrapper {
     background-color: #ffffff;
     padding: 10px 50px;
 }
 
-body
-{
-
+body {
     background: #910a05; /* Old browsers */
-/* IE9 SVG, needs conditional override of 'filter' to 'none' */
-background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iNzUlIj4KICAgIDxzdG9wIG9mZnNldD0iMSUiIHN0b3AtY29sb3I9IiM5MTBhMDUiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI1OSUiIHN0b3AtY29sb3I9IiM3ZjE1MDUiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjNTEwNTAzIiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L3JhZGlhbEdyYWRpZW50PgogIDxyZWN0IHg9Ii01MCIgeT0iLTUwIiB3aWR0aD0iMTAxIiBoZWlnaHQ9IjEwMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-background: -moz-radial-gradient(center, ellipse cover,  #910a05 1%, #7f1505 59%, #510503 100%); /* FF3.6+ */
-background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(1%,#910a05), color-stop(59%,#7f1505), color-stop(100%,#510503)); /* Chrome,Safari4+ */
-background: -webkit-radial-gradient(center, ellipse cover,  #910a05 1%,#7f1505 59%,#510503 100%); /* Chrome10+,Safari5.1+ */
-background: -o-radial-gradient(center, ellipse cover,  #910a05 1%,#7f1505 59%,#510503 100%); /* Opera 12+ */
-background: -ms-radial-gradient(center, ellipse cover,  #910a05 1%,#7f1505 59%,#510503 100%); /* IE10+ */
-background: radial-gradient(ellipse at center,  #910a05 1%,#7f1505 59%,#510503 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#910a05', endColorstr='#510503',GradientType=1 ); /* IE6-8 fallback on horizontal gradient */    
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iNzUlIj4KICAgIDxzdG9wIG9mZnNldD0iMSUiIHN0b3AtY29sb3I9IiM5MTBhMDUiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI1OSUiIHN0b3AtY29sb3I9IiM3ZjE1MDUiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjNTEwNTAzIiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L3JhZGlhbEdyYWRpZW50PgogIDxyZWN0IHg9Ii01MCIgeT0iLTUwIiB3aWR0aD0iMTAxIiBoZWlnaHQ9IjEwMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-radial-gradient(center, ellipse cover, #910a05 1%, #7f1505 59%, #510503 100%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(1%,#910a05), color-stop(59%,#7f1505), color-stop(100%,#510503)); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover, #910a05 1%,#7f1505 59%,#510503 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover, #910a05 1%,#7f1505 59%,#510503 100%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover, #910a05 1%,#7f1505 59%,#510503 100%); /* IE10+ */
+    background: radial-gradient(ellipse at center, #910a05 1%,#7f1505 59%,#510503 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#910a05', endColorstr='#510503',GradientType=1 ); /* IE6-8 fallback on horizontal gradient */
 }
 
 /*.user-display .welcome .user-actions
@@ -94,35 +84,28 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#910a05', end
     visibility: hidden;
 }*/
 
-.credits
-{
+.credits {
     text-align: center;
 }
 
-    .credits a
-    {
-        color:gray;
+    .credits a {
+        color: gray;
     }
 
-        .credits a:hover
-        {
+        .credits a:hover {
             color: white;
         }
 
-.copyright
-{
+.copyright {
 }
 
-.contactinfo
-{
-/*background-color:green;*/
+.contactinfo {
+    /*background-color:green;*/
 }
 
-.footerinfo ul, ol
-{
-margin: 0.7em 1.5em;
-line-height: 1.8em;
-
+.footerinfo ul, ol {
+    margin: 0.7em 1.5em;
+    line-height: 1.8em;
 }
 
 /* Main
@@ -130,80 +113,68 @@ line-height: 1.8em;
 
 /* Content lists and details */
 
-.content-description
-{
+.content-description {
     font-size: 1.154em;
 }
 
-.content-items
-{
+.content-items {
     padding: 0;
     margin: 0;
     list-style: none;
 }
 
-    .content-items li
-    {
+    .content-items li {
         padding: 0;
         margin: 0;
     }
 
-    .content-items .content-item
-    {
+    .content-items .content-item {
         border-top: 1px solid #dbdbdb;
         padding: 6px 0 6px 0;
     }
 
-        .content-items .content-item header
-        {
+        .content-items .content-item header {
         }
 
-            .content-items .content-item header h1
-            {
+            .content-items .content-item header h1 {
                 font-size: 1.308em;
                 color: #434343;
             }
 
-                .content-items .content-item header h1 a
-                {
+                .content-items .content-item header h1 a {
                     color: #434343;
                 }
 
-                    .content-items .content-item header h1 a:hover
-                    {
+                    .content-items .content-item header h1 a:hover {
                     }
 
 /* Tags */
 
-.tags
-{
+.tags {
     margin-top: 12px;
 }
 
-    .tags a
-    {
+    .tags a {
         background-color: #dbdbdb;
         padding: 3px 6px;
         color: #434343;
     }
 
-        .tags a:hover
-        {
+        .tags a:hover {
             background-color: #434343;
             color: #fff;
         }
 
 /* Metadata */
 
-.metadata
-{
-    display:none;
+.metadata {
+    display: none;
     /*margin: 0 0 12px 0;
     color: #999;
     font-size: 0.846em;*/
 }
 
-    /*.metadata .published
+/*.metadata .published
     {
         display: inline;
         margin: 0 6px 0 0;
@@ -220,110 +191,91 @@ line-height: 1.8em;
 
 /* Comments */
 
-#comments
-{
+#comments {
     margin: 24px 0 0 0;
     padding: 0;
 }
 
-.comment-form
-{
+.comment-form {
     margin: 24px 0 0 0;
     padding: 0;
 }
 
-.comments
-{
+.comments {
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-    .comments li
-    {
+    .comments li {
         margin: 12px 0 0 0;
         padding: 12px;
         border: 1px solid #dbdbdb;
     }
 
-.comment
-{
+.comment {
     margin: 0;
     padding: 0;
 }
 
-    .comment h4
-    {
+    .comment h4 {
         font-size: 1.077em;
     }
 
-    .comment .who
-    {
+    .comment .who {
     }
 
-    .comment .what
-    {
+    .comment .what {
     }
 
-    .comment #add-comment
-    {
+    .comment #add-comment {
     }
 
-.comment-form #comment-by
-{
+.comment-form #comment-by {
     font-size: 1.231em;
     font-weight: normal;
     margin: 0 0 1.2em 0;
     border: none;
 }
 
-.comment-form #comment-text
-{
+.comment-form #comment-text {
     width: 33.2em;
 }
 
-.comment-form input[type="text"]
-{
+.comment-form input[type="text"] {
     width: 32em;
 }
 
-.comment-disabled
-{
+.comment-disabled {
 }
 
-.comment-count
-{
+.comment-count {
     font-size: 1.231em;
 }
 
 /* Confirmations */
 
-.message, .validation-summary-errors
-{
+.message, .validation-summary-errors {
     margin: 10px 0 4px 0;
     padding: 4px;
 }
 
-.messages a
-{
+.messages a {
     font-weight: bold;
 }
 
-.message-Information
-{
+.message-Information {
     background: #e6f1c9; /* green */
     border: 1px solid #cfe493;
     color: #062232;
 }
 
-.message-Warning
-{
+.message-Warning {
     background: #fdf5bc; /* yellow */
     border: 1px solid #ffea9b;
 }
 
-.critical.message, .validation-summary-errors, .message-Error
-{
+.critical.message, .validation-summary-errors, .message-Error {
     background: #e68585; /* red */
     border: 1px solid #990808;
     color: #fff;
@@ -336,41 +288,35 @@ line-height: 1.8em;
 /* Widgets
 ***************************************************************/
 
-.widgets
-{
+.widgets {
 }
 
-.widget h1
-{
+.widget h1 {
     font-size: 1.077em;
 }
 
 /* Edit Mode Widgets */
 /* These are the edit controls that appear when you're logged-in */
 
-.widget-control
-{
+.widget-control {
     position: relative;
     border: 1px dotted #5f97af;
 }
 
-    .widget-control .manage-actions
-    {
+    .widget-control .manage-actions {
         position: absolute;
         top: 0px;
         right: 0px;
     }
 
-        .widget-control .manage-actions a
-        {
+        .widget-control .manage-actions a {
             display: block;
             background-color: #dbdbdb;
             color: #434343;
             padding: 3px 6px;
         }
 
-            .widget-control .manage-actions a:hover
-            {
+            .widget-control .manage-actions a:hover {
                 background-color: #434343;
                 color: #fff;
                 text-decoration: none;
@@ -378,30 +324,26 @@ line-height: 1.8em;
 
 /* Content Mode */
 
-.content-control
-{
+.content-control {
     border: 1px dotted #5f97af;
     overflow: auto;
     position: relative;
 }
 
-    .content-control .manage-actions
-    {
+    .content-control .manage-actions {
         position: absolute;
         top: 0px;
         right: 0px;
     }
 
-        .content-control .manage-actions a
-        {
+        .content-control .manage-actions a {
             display: block;
             background-color: #dbdbdb;
             color: #434343;
             padding: 3px 6px;
         }
 
-            .content-control .manage-actions a:hover
-            {
+            .content-control .manage-actions a:hover {
                 background-color: #434343;
                 color: #fff;
                 text-decoration: none;
@@ -412,22 +354,19 @@ line-height: 1.8em;
 /* Pager
 ***************************************************************/
 
-.pager
-{
+.pager {
     list-style: none;
     padding: 0;
     margin: 12px 0 0 0;
 }
 
-    .pager li
-    {
+    .pager li {
         float: left;
         padding: 0 12px 0 0;
         margin: 0;
     }
 
-    .pager a, .pager span
-    {
+    .pager a, .pager span {
         font-size: 1.077em;
         display: block;
         background-color: #dbdbdb;
@@ -435,14 +374,12 @@ line-height: 1.8em;
         color: #434343;
     }
 
-        .pager a:hover
-        {
+        .pager a:hover {
             background-color: #434343;
             color: #fff;
         }
 
-    .pager span
-    {
+    .pager span {
         background-color: inherit;
     }
 
@@ -453,8 +390,7 @@ line-height: 1.8em;
 
 
 
-.theme-form-decoration-corners
-{
+.theme-form-decoration-corners {
     /*-webkit-border-top-left-radius: 15px;
     -webkit-border-bottom-right-radius: 15px;
     -moz-border-radius-topleft: 15px;
@@ -465,41 +401,21 @@ line-height: 1.8em;
 
 /*Other*/
 
-.narrow-billboard
-{
+.narrow-billboard {
     min-height: 70px;
     background-color: rgba(240,240,240,0.9);
 }
 
-    .narrow-billboard:hover
-    {
+    .narrow-billboard:hover {
         min-height: 125px;
         background-color: rgba(240,240,240,0.9);
     }
 
 
-.widget-search-form
-{
+.widget-search-form {
     height: 40px;
 }
 
-.widget-side-omega
-{
+.widget-side-omega {
     margin-bottom: 15px;
-}
-
-#Zone-Navigation
-{
-    z-index: 2;
-}
-
-#Zone-Billboard
-{
-    overflow: hidden;
-    z-index: 2;
-}
-
-.zone-billboard
-{
-    background: rgb(76,76,76);
 }
